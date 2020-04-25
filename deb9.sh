@@ -27,6 +27,7 @@ if [[ $ether = "" ]]; then
         ether=eth0
 fi
 
+
 #vps="zvur";
 vps="aneka";
 
@@ -374,7 +375,7 @@ echo "   axel, bmon, htop, iftop, mtr, rkhunter, nethogs: nethogs $ether" | tee 
 echo "Auto Lock & Delete User Expire tiap jam 00:00" | tee -a log-install.txt | lolcat
 echo "VPS Restart : 00.00/24.00 WIB"   | tee -a log-install.txt | lolcat
 echo ""  | tee -a log-install.txt
-echo "----------------------------------------------"  | tee -a log-install.txt | lolcat
+echo "---------------------------------------------"  | tee -a log-install.txt | lolcat
 echo "    -------THANK YOU FOR CHOIS US--------"  | tee -a log-install.txt | lolcat
 echo "=============================================="  | tee -a log-install.txt | lolcat
 echo "-   PLEASE REBOOT TAKE EFFECT TERIMA KASIH   -" | lolcat
